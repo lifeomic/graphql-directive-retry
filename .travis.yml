@@ -16,5 +16,5 @@ deploy:
   api_key: $NPM_KEY
   on:
     tags: true
-    repo: lifeomic/graphql-retry-directive
+    repo: lifeomic/graphql-directive-retry
     node: '8'
