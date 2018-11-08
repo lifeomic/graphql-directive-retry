@@ -22,6 +22,15 @@ const typeDefs = `
     flakyFunction(arg: String!): String! @retry(maxTimeout: 100)
   }
 `;
+
+const schema = makeExecutableSchema({
+  typeDefs,
+  resolvers,
+
+  schemaDirectives: {
+    retry: retryDirective
+  }
+});
 ```
 
 ### Customizing timeout behavior
