@@ -9,7 +9,7 @@ const typeDefs = `
     flakyConstant: String! @retry
     impatientConstant: String! @retry(retries: 0)
     flakyFunction(arg: String!): String! @retry
-    pickyConstant: String! @retry(retries: 1, factor: 1, minTimeout: 1, maxTimeout: 1)
+    pickyConstant: String! @retry(retries: 1, factor: 1.1, minTimeout: 1, maxTimeout: 1)
   }
 `;
 

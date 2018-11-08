@@ -25,5 +25,5 @@ class retryDirective extends SchemaDirectiveVisitor {
   }
 }
 
-exports.retryDeclaration = (name) => `directive @${name}(retries: Int, minTimeout: Int, maxTimeout: Int, factor: Int) on FIELD_DEFINITION`;
+exports.retryDeclaration = (name) => `directive @${name}(retries: Int, minTimeout: Int, maxTimeout: Int, factor: Float) on FIELD_DEFINITION`;
 exports.retryDirective = retryDirective;
