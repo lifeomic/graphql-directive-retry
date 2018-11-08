@@ -1,5 +1,5 @@
 {
-  "name": "graphql-retry-directive",
+  "name": "graphql-directive-retry",
   "version": "1.0.0",
   "description": "A GraphQL schema directive to retry resolvers",
   "main": "src/retry.js",
