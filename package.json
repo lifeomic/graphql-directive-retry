@@ -6,7 +6,8 @@
   "author": "LifeOmic <development@lifeomic.com>",
   "license": "MIT",
   "scripts": {
-    "test": "nyc jest"
+    "test": "jest --coverage",
+    "coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "engines": {
     "node": ">= 8.0.0"
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@lifeomic/eslint-plugin-node": "^1.1.2",
+    "coveralls": "^3.0.2",
     "eslint": "^5.8.0",
     "eslint-plugin-jest": "^22.0.0",
     "graphql": "^14.0.2",
