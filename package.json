@@ -6,7 +6,7 @@
   "author": "LifeOmic <development@lifeomic.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "test": "nyc ava"
+    "test": "nyc jest"
   },
   "engines": {
     "node": ">= 8.0.0"
