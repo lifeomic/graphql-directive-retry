@@ -1,0 +1,5 @@
+src/__tests__/
+coverage/
+.vscode/
+.editorconfig
+.travis.yml
