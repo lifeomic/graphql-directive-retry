@@ -1,6 +1,6 @@
 {
   "name": "@lifeomic/graphql-directive-retry",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A GraphQL schema directive to retry resolvers",
   "main": "src/retry.js",
   "author": "LifeOmic <development@lifeomic.com>",
