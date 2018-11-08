@@ -46,5 +46,8 @@
   "peerDependencies": {
     "graphql": "^14.0.2",
     "graphql-tools": "^4.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
