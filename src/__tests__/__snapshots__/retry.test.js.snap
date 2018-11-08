@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`arguments are passed to the resolver 1`] = `
+Object {
+  "data": Object {
+    "flakyFunction": "Persistence pays off",
+  },
+}
+`;
+
+exports[`context is provided to the resolver 1`] = `
+Object {
+  "data": Object {
+    "flakyConstant": "Persistence pays off",
+  },
+}
+`;
+
+exports[`info is provided to the resolver 1`] = `
+Object {
+  "data": Object {
+    "flakyConstant": "Persistence pays off",
+  },
+}
+`;
+
+exports[`object is provided to the resolver 1`] = `
+Object {
+  "data": Object {
+    "flakyConstant": "Persistence pays off",
+  },
+}
+`;
+
+exports[`resolvers will be retried 1`] = `
+Object {
+  "data": Object {
+    "flakyConstant": "Persistence pays off",
+  },
+}
+`;
+
+exports[`respects retry config in context 1`] = `
+Object {
+  "data": null,
+  "errors": Array [
+    [GraphQLError: The first time always fails],
+  ],
+}
+`;
+
+exports[`respects retry config on the field 1`] = `
+Object {
+  "data": null,
+  "errors": Array [
+    [GraphQLError: The first time always fails],
+  ],
+}
+`;

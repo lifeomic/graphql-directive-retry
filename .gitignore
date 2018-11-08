@@ -1,0 +1,5 @@
+.npmrc
+.vscode
+.nyc_output/
+node_modules/
+yarn-error.log

@@ -1,0 +1,3 @@
+{
+  "extends": [ "plugin:@lifeomic/node/recommended", "plugin:jest/recommended" ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "graphql-retry-directive",
+  "version": "1.0.0",
+  "description": "A GraphQL schema directive to retry resolvers",
+  "main": "src/retry.js",
+  "author": "LifeOmic <development@lifeomic.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "dependencies": {
+    "promise-retry": "^1.1.1"
+  },
+  "devDependencies": {
+    "@lifeomic/eslint-plugin-node": "^1.1.2",
+    "eslint": "^5.8.0",
+    "eslint-plugin-jest": "^22.0.0",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "jest": "^23.6.0",
+    "nyc": "^12.0.2",
+    "proxyquire": "^2.0.1",
+    "sinon": "^6.1.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:@lifeomic/node/recommended",
+      "plugin:jest/recommended"
+    ],
+    "plugins": [
+      "jest"
+    ]
+  },
+  "nyc": {
+    "check-coverage": true,
+    "lines": 100,
+    "statements": 100,
+    "functions": 100,
+    "branches": 100
+  },
+  "peerDependencies": {
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3"
+  }
+}
