@@ -18,7 +18,7 @@
   "devDependencies": {
     "@lifeomic/eslint-plugin-node": "^1.1.2",
     "coveralls": "^3.0.2",
-    "eslint": "^5.8.0",
+    "eslint": "^6.0.0",
     "eslint-plugin-jest": "^22.0.0",
     "graphql": "^14.0.2",
     "graphql-tools": "^4.0.3",
